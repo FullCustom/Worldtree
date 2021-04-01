@@ -1,0 +1,25 @@
+
+header.bg-1 {
+    background-color: #303030;
+    color: #ffffff;
+    padding: 20px;
+}
+.bg-2 {
+
+}
+footer.bg-3 { 
+    background-color: #303030;
+    color: #ffffff;
+    padding: 20px;
+}
+.demo {
+}
+  /* Make the image fully responsive */
+.carousel-inner img {
+      padding: 10px;
+      width: 80%;
+      height: 80%;
+}
+#button {
+    padding: 20px;
+}
