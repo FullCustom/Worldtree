@@ -1,2 +1,8 @@
 ---
- DEPLOYMENT
+ deployment:
+  tasks:
+    - export DEPLOYPATH=/home/worldr33/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R _img $DEPLOYPATH
+    - /bin/cp -R _css $DEPLOYPATH
+    # Add as needed
